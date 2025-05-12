@@ -14,7 +14,7 @@
 }
 
 .img1 {
-    background-image: url(WhatsApp\ Image\ 2025-05-05\ at\ 00.00.48_a5c9a77a.jpg);
+    background-image: url(../images/WhatsApp\ Image\ 2025-05-05\ at\ 00.00.48_a5c9a77a.jpg);
     background-size: 100% 100%;
     width: 30%;
     height: 30vh;
@@ -24,7 +24,7 @@
 
 
 .img2 {
-    background-image: url(WhatsApp\ Image\ 2025-05-05\ at\ 00.00.49_cf1233a9.jpg);
+    background-image: url(../images/WhatsApp\ Image\ 2025-05-05\ at\ 00.00.49_cf1233a9.jpg);
     background-size: 100% 100%;
     width: 30%;
     height: 30vh;
@@ -33,7 +33,7 @@
 }
 
 .img3 {
-    background-image: url(orange.jpg);
+    background-image: url(../images/orange.jpg);
     background-size: 100% 100%;
     width: 30%;
     height: 30vh;
@@ -43,7 +43,7 @@
 
 
 .img4 {
-    background-image: url(apple.jpg);
+    background-image: url(../images/apple.jpg);
     background-size: 100% 100%;
     width: 30%;
     height: 30vh;
@@ -52,7 +52,7 @@
 }
 
 .img5 {
-    background-image: url(grapes.jpg);
+    background-image: url(../images/grapes.jpg);
     background-size: 100% 100%;
     width: 30%;
     height: 30vh;
@@ -61,7 +61,7 @@
 }
 
 .img6 {
-    background-image: url(banana.jpg);
+    background-image: url(../images/banana.jpg);
     background-size: 100% 100%;
     width: 30%;
     height: 30vh;
