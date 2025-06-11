@@ -4,16 +4,194 @@
     box-sizing: border-box;
 }
 
-.images {
+ .mainContainer .pineapple {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/slider-img.jpg);
+    background-size: 100% 100%;
+}
+
+.mainContainer .HEADER {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-30px);
+}
+
+.mainContainer .HEADER .header {
+    width: 50%;
+    height: 7vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px gold;
+}
+
+.mainContainer .HEADER .header ul {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.mainContainer .HEADER .header ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.mainContainer .HEADER .header ul li a:hover,
+.mainContainer .HEADER .header ul .active a {
+    color: gold;
+}
+
+.mainContainer .FruitShop {
+    width: 100%;
+    margin-top: 50px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.mainContainer .FruitShop .title h2,
+.mainContainer .FruitShop .title p,
+.mainContainer .aboutFruit .data h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.mainContainer .FruitShop .appleImage {
+    width: 30%;
+    height: 50vh;
+    background-image: url(../images/shop-img.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.mainContainer .FruitShop .appleImage:hover {
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.mainContainer .FruitShop .button {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer .FruitShop .button button {
+    width: 10%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+.mainContainer .FruitShop .button button:hover,
+.mainContainer .aboutFruit .data .button button:hover {
+    color: black;
+    background-color: gold;
+}
+
+.mainContainer .aboutFruit {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .aboutFruit .data .hLine {
+    width: 0.5%;
+    height: 15vh;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    
+}
+
+.mainContainer .aboutFruit .data .button {
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer .aboutFruit .data .button button{
+    width: 20%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.mainContainer .aboutFruit .transform {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    transform: translateX(150px);
+}
+
+.mainContainer .aboutFruit .transform .background {
+    width: 100%;
+    height: 45vh;
+    background-color: lightgray;
+}
+
+.mainContainer .aboutFruit .transform .image {
+    width: 100%;
+    height: 45vh;
+    background-image: url(../images/WhatsApp\ Image\ 2025-05-05\ at\ 00.00.59_f908b116.jpg);
+    background-size: 100% 100%;
+    transform: translateX(-280px) translateY(30px);
+}
+
+.mainContainer .images .head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.mainContainer .images .head .line {
+    width: 15%;
+    height: 0.5vh;
+    background-color: lightgray;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.mainContainer .images .head h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.mainContainer .images {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
    justify-content: space-around;
    margin-top: 20px;
 }
 
-.img1 {
+.mainContainer .images .img1 {
     background-image: url(../images/WhatsApp\ Image\ 2025-05-05\ at\ 00.00.48_a5c9a77a.jpg);
     background-size: 100% 100%;
     width: 30%;
@@ -23,7 +201,7 @@
 }
 
 
-.img2 {
+.mainContainer .images .img2 {
     background-image: url(../images/WhatsApp\ Image\ 2025-05-05\ at\ 00.00.49_cf1233a9.jpg);
     background-size: 100% 100%;
     width: 30%;
@@ -32,7 +210,7 @@
     box-shadow: 0px 0px 10px 5px red;
 }
 
-.img3 {
+.mainContainer .images .img3 {
     background-image: url(../images/orange.jpg);
     background-size: 100% 100%;
     width: 30%;
@@ -42,7 +220,7 @@
 }
 
 
-.img4 {
+.mainContainer .images .img4 {
     background-image: url(../images/apple.jpg);
     background-size: 100% 100%;
     width: 30%;
@@ -51,7 +229,7 @@
     box-shadow: 0px 0px 10px 5px rgb(189, 0, 0);
 }
 
-.img5 {
+.mainContainer .images .img5 {
     background-image: url(../images/grapes.jpg);
     background-size: 100% 100%;
     width: 30%;
@@ -60,7 +238,7 @@
     box-shadow: 0px 0px 10px 5px rgb(74, 74, 208);
 }
 
-.img6 {
+.mainContainer .images .img6 {
     background-image: url(../images/banana.jpg);
     background-size: 100% 100%;
     width: 30%;
@@ -69,38 +247,38 @@
     box-shadow: 0px 0px 10px 5px yellow;
 }
 
-.images .hover1 h2 {
+.mainContainer .images .hover1 h2 {
     width: 100%;
     text-align: center;
     color: aliceblue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.images .img1 .hover1 h2{
+.mainContainer .images .img1 .hover1 h2{
     color: gold;
 }
 
-.images .img2 .hover1 h2{
+.mainContainer .images .img2 .hover1 h2{
     color: red;
 }
 
-.images .img3 .hover1 h2{
+.mainContainer .images .img3 .hover1 h2{
     color: orange;
 }
 
-.images .img4 .hover1 h2{
+.mainContainer .images .img4 .hover1 h2{
     color: rgb(189, 0, 0);
 }
 
-.images .img5 .hover1 h2{
+.mainContainer .images .img5 .hover1 h2{
     color: rgb(74, 74, 208);
 }
 
-.images .img6 .hover1 h2{
+.mainContainer .images .img6 .hover1 h2{
     color: yellow;
 }
 
-button {
+.mainContainer .images button {
     color: aliceblue;
     background-color: transparent;
     border: 2px solid aliceblue;
@@ -109,12 +287,12 @@ button {
     transition: 1s;
 }
 
-.images button:hover {
+.mainContainer .images button:hover {
     color: black;
     background-color: rgb(240, 248, 255);
 }
 
-.hover1 {
+.mainContainer .images .hover1 {
     width: 100%;
     height: 100%;
     background-color: #232323cc;
@@ -129,73 +307,296 @@ button {
     transform-origin: bottom;
 }
 
-.images .img1:hover .hover1 {
+.mainContainer .images .img1:hover .hover1 {
     transform: rotate(0deg);
 }
-.images .img2:hover .hover1 {
+.mainContainer .images .img2:hover .hover1 {
     transform: rotate(0deg);
 }
-.images .img3:hover .hover1 {
+.mainContainer .images .img3:hover .hover1 {
     transform: rotate(0deg);
 }
-.images .img4:hover .hover1 {
+.mainContainer .images .img4:hover .hover1 {
     transform: rotate(0deg);
 }
-.images .img5:hover .hover1 {
+.mainContainer .images .img5:hover .hover1 {
     transform: rotate(0deg);
 }
-.images .img6:hover .hover1 {
+.mainContainer .images .img6:hover .hover1 {
     transform: rotate(0deg);
 }
 
+.mainContainer .customer {
+    width: 100%;
+    height: 30vh;
+}
 
+.mainContainer .customer .head {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 15px;
+}
+
+.mainContainer .customer .head .line {
+    width: 15%;
+    height: 0.5vh;
+    background-color: lightgray;
+}
+
+.mainContainer .customer .client {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+}
+
+.mainContainer .customer .client .icon1 {
+    width: 5%;
+    height: 5vh;
+    background-image: url(../images/prev.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    background-color: black;
+    padding: 25px;
+}
+
+.mainContainer .customer .client .icon2 {
+     width: 5%;
+    height: 5vh;
+    background-image: url(../images/next.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+    background-color: black;
+    padding: 25px;
+}
+
+.mainContainer .customer .client .clientPhoto {
+    width: 20%;
+    height: 35vh;
+    background-image: url(../images/client-img.png);
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+.mainContainer .customer .data {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.mainContainer .callBack {
+    width: 100%;
+    margin-top: 270px;
+}
+
+.mainContainer .callBack .head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mainContainer .callBack .head .line {
+    width: 15%;
+    height: 0.5vh;
+    background-color: lightgray;
+    margin-left: 50px;
+}
+
+.mainContainer .callBack .data {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.mainContainer .callBack .data textarea {
+    width: 35%;
+    height: 20vh;
+    padding: 30px;
+    box-shadow: 5px 0px 5px 5px lightgray;
+}
+
+.mainContainer .callBack .data .map {
+    width: 50%;
+    height: 40vh;
+}
+
+.mainContainer .callBack .data .map iframe {
+    width: 100%;
+    height: 35vh;
+}
+
+.mainContainer .footer {
+    width: 100%;
+}
+
+.mainContainer .footer .ninom {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.mainContainer .footer .ninom h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mainContainer .footer .ninom .information {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.mainContainer .footer .ninom .information .location,
+.mainContainer .footer .ninom .information .call,
+.mainContainer .footer .ninom .information .email {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainContainer .footer .ninom .information .location p,
+.mainContainer .footer .ninom .information .call p,
+.mainContainer .footer .ninom .information .email p {
+    color: aliceblue;
+}
+
+.mainContainer .footer .ninom .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.mainContainer .footer .ninom .social i {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.mainContainer .footer .Rights {
+    width: 100%;
+    height: 5vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer .footer .Rights p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.mainContainer .HEADER .header input,
+.mainContainer .HEADER .header label i {
+    display: none;
+}
+
+
+@media (max-width: 1110px) {
+    .mainContainer .HEADER .header {
+       background-color: transparent;
+       box-shadow: none;
+       /* display: none; */
+    }
+    .mainContainer .HEADER .header ul {
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        padding: 2vh 4%;
+        border-radius: 20px;
+        box-shadow: 0px 0px 5px 5px gold;
+        margin-bottom: 9%;
+        transition: 1s;
+        transform-origin: left;
+        transform: rotateY(90deg);
+    }
+    .mainContainer .HEADER .header ul li {
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 217, 0, 0.64);
+    }
+    .mainContainer .HEADER .header ul li a {
+        font-size: 17px;
+    }
+    .mainContainer .HEADER .header label i {
+        display: block;
+        font-size: 30px;
+        align-items: flex-end;
+    }
+    .mainContainer .HEADER .header input:checked ~ ul {
+        transform: rotateY(0deg);
+    }
+
+}
 
 
 
 @media (max-width: 690px) {
-    .images .img1 {
+    .mainContainer .images .img1 {
         width: 40%;
     }
-    .images .img2 {
+    .mainContainer .images .img2 {
         width: 40%;
     }
-    .images .img3{
+    .mainContainer .images .img3{
         width: 40%;
     }
-    .images .img4 {
+    .mainContainer .images .img4 {
         width: 40%;
     }
-    .images .img5 {
+    .mainContainer .images .img5 {
         width: 40%;
     }
-    .images .img6 {
+    .mainContainer .images .img6 {
         width: 40%;
     }
-    .images {
+    .mainContainer .images {
         flex-wrap: wrap;
+    }
+    .mainContainer .footer .ninom .information {
+        flex-wrap: wrap;
+        row-gap: 16px;
+    }
+    .mainContainer .footer .ninom .information .location,
+    .mainContainer .footer .ninom .information .call,
+    .mainContainer .footer .ninom .information .email{
+        width: 100%;
     }
 }
 
 @media (max-width: 450px) {
-    .images .img1 {
+    .mainContainer .images .img1 {
         width: 80%;
     }
-    .images .img2 {
+    .mainContainer .images .img2 {
         width: 80%;
     }
-    .images .img3{
+    .mainContainer .images .img3{
         width: 80%;
     }
-    .images .img4 {
+    .mainContainer .images .img4 {
         width: 80%;
     }
-    .images .img5 {
+    .mainContainer .images .img5 {
         width: 80%;
     }
-    .images .img6 {
+    .mainContainer .images .img6 {
         width: 80%;
     }
-    .images {
+    .mainContainer .images {
         flex-wrap: wrap;
     }
 }
